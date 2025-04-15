@@ -11,7 +11,7 @@ This repo contains the Lean formalization files for the paper "Regex Decision Pr
 
 Listed below is a brief description of each file of the formalization.
 
-- `EBA` : main definitons about Effective Boolean Algebras (EBA). The EBA is implemented in Lean as a type class. The assumption on the EBA is introduced at the begining of the files with a variable command. 
+- `EBA` : main definitions about Effective Boolean Algebras (EBA). The EBA is implemented in Lean as a type class. The assumption on the EBA is introduced at the beginning of the files with a variable command. 
 - `Span` : main definitions and lemmas about spans. 
 - `TTerm`: main definitions and lemmas about transition terms.
 
@@ -19,12 +19,12 @@ The main results are organized into three main directories, each corresponding t
 
 ### **1. `EREa/` – Extended Regular Expressions with Anchors**
 
-This folder contains formalization results for the `EREa` class of regular expressions, which includes intersection, complement and start\end anchors.
+This folder contains formalization results for the `EREa` class of regular expressions, which includes intersection, complement and start/end anchors.
 
 Listed below is a brief description of each core file of the formalization.
 
-- `EREa` : main definitons for the class `EREa`. 
-- `Metrics` : metrics on regular expression to show termination of theorems/definitions. 
+- `EREa` : main definitions for the class `EREa`. 
+- `Metrics` : metrics on regular expressions to show termination of theorems/definitions. 
 - `Semantics` : classical matching semantics, defined on locations and spans.
 - `Derivatives` : main definitions for derivative-based matching (includes both symbolic derivatives and classical). 
 - `Equivalence` : proof of equivalence between the symbolic and classical derivative-based matching.
@@ -44,8 +44,8 @@ This folder contains the formalization of the `RESharp` fragment, which extends 
 
 Listed below is a brief description of each file of the formalization.
 
-- `RESharp` : main definitons for the class `RESharp`. 
-- `Metrics` : metrics on regular expression to show termination of theorems/definitions. 
+- `RESharp` : main definitions for the class `RESharp`. 
+- `Metrics` : metrics on regular expressions to show termination of theorems/definitions. 
 - `Semantics`: classical matching semantics, defined on locations and spans.
 - `Conversions`: contains the conversion theorems between match semantics of the three classes of regexes `EREa`, `RESharp` and `RE`.
 - `LookaroundNormalForm`: contains the main correctness theorem `lnf_correct` for the lookaround normal form.
